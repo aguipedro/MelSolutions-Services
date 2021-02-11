@@ -4,21 +4,31 @@
 
 .title {
     font-family: "Roboto", sans-serif;
-    font-weight: 200;
     font-size: 28px;
-    margin-top: 20px;
-    margin-bottom: 55px;
-    color: #fff;
+    font-weight: 300;
+    color: #fafafa;
+    text-align: center;
 }
 
+.carousel-caption{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    color: #fff;
+  }
+
 .nav-item {
-    margin: 30px;
+    margin: 50px;
+}
+
+.form-control{
+ font-size: 20px;
+font-weight: 600;
 }
 
 .nav-link {
-font-size:20px;
+ font-size:28px;
 font-weight: 600;
-color: #fff;
 }
 
 .logo {
@@ -26,7 +36,7 @@ color: #fff;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 180px;
+    min-height: 240px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -35,29 +45,7 @@ color: #fff;
 
 /*--------------------------------------------Header-Colors*/
 
-.bg-color-name-title {
-    background-color: #293746;
-}
 
-.bg-color-name-title-1 {
-    background-color: #fafafa;
-}
-
-.ui-menu-color-home {
-    background-color: #77180b;
-}
-
-.ui-menu-color-resume {
-    background-color: #332828ab;
-}
-
-.ui-menu-color-hire {
-    background-color: #4366a7; 
-}
-
-.ui-menu-color-contact {
-    background-color: #e2c20a;
-}
 
 /*--------------------------------------------Header-Hover.css*/
 
@@ -68,246 +56,13 @@ color: #fff;
 
 /*--------------------------------------------SECTION-work-specialty-network-connections*/
 
-.section {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.my-work {
-    padding-top: 50px;
-    text-align: center;
-}
-
-.my-work-specialty-logo {
-    color: #e2c20a; 
-}
-.my-work-items {
-    text-align: center;
-}
-
- .my-work-items p {   
-    margin: auto;
-}
-
-.hr-1 {
-    background-color: #00FF00;
-    margin: 0;
-    width:100%;
-}
-
-.my-specialty {
-    padding-top: 50px;
-    text-align: center;
-}
-
-.my-specialty-items {
-    text-align: center;
-    padding-bottom: 30px;
-}
-
-.my-specialty-items p {
-    margin: auto;
-}
-
-.my-network {
-    padding-top: 50px;
-    text-align: center;
-}   
-
-.my-network-connections-logo  {
-    color: #e2c20a; 
-}
-
-.my-network-items {
-    text-align: center; 
-}
-
-.my-network-items p {
-    margin: 0; 
-}
-
-.my-connections {
-    padding-top: 50px;
-    text-align: center;  
-}
-
-.my-connections-items {
-    text-align: center;
-}
-
-.my-connections-items p {
-    margin: auto;
-}
-
 /* ----------------------------------------SECTION-about Me */
 
-#about-me {
-    font-size: 200%;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-#about-me-item {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 100%;
-}
-
-#center-about {  
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 10px;
-    border-style: solid;
-    border-color: #00FF00;
-    border-width: 2px;
-    border-radius: 100%;
-    margin: 0 auto;
-}
-
-#circle-cover-bg {
-    background: url('https://i.imgur.com/LqgfZ1C.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 100%;
-}
 
 /*---------------------------------------- Skills*/
 
-.skills-icon{
-    font-size: 18px;
-    color: #e2c20a;
-}
-
-.skills-item {
-    font-size: 18px;
-    text-align: center;  
-}
-
-.skills-item  p {
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 50px;
-
-}
-
-.skills-item-bar {
-    padding-right: 40px;  
-}
-
-.section-column {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-
-.skills-heading {
-    color: #293746;
-    margin-bottom: 70px;
-    text-align: center;
-}
-
-.progress {
-    position: relative;
-    height: 25px;
-    width: 100%; 
-    margin: 5px; 
-}
-
-.progress-type {
-    position: absolute;
-    font-weight: 600;
-    color:#293746;
-    font-size: 15px;  
-}
-
 /*---------------------------------------- work-Education History RESUME*/
 
-.bg-color-work-history {
-    background-color: #4366a7;
-}
-
-.bg-color-education {
-    background-color: #4366a7;
-}
-
-.bg-color-skills {
-    background-color: #fff;
-}
-
-.history-heading {
-    color: #fff;
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.timeline-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    color:#fff;
-    border-left: 1px solid;
-}
-
-.timeline-item  p {
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item:before {
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.0em;
-    top: 2em;
-    display: block;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 1em;
-    color: #00FF00;  
-}
-
-.section-work {
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.section-work-1 {
-    padding-left: 80px;
-}
-
-.section-education {
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.section-education-1 {
-    padding-left: 80px;
-}
-
-.timeline-item:after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background: #fff;  
-}
-
-.history-items {
-    margin-bottom: 30px;
-    
-}
-
-.work-location {
-    color: #00FF00; 
-}
 
 /*---------------------------------------- Contact Form*/
 
@@ -355,16 +110,19 @@ button[type="submit"] {
     text-transform: uppercase;
 }
 
+h3 
+{
+    margin-bottom: 10px;
+}
 h1,
 h2,
-h3,
 h4 {
     margin: 0;
 }
 
 h1,
 h2 { 
-    text-align: center;
+    margin: 0;
 }
 
 /* ----------------------------------------hire-me */
@@ -414,21 +172,6 @@ footer {
     margin: 0;
 }
 
-.cv-pdf i {
-    font-size: 18px;
-    color: #00FF00;
-    text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.cv-pdf i:hover {
-    color: #e84610;
-}
-
 .social-links {
     padding-bottom: 15px;
 }
@@ -438,7 +181,7 @@ footer {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 28px;
     line-height: 7px;
     text-align: center;
     color:  #293746;
@@ -455,5 +198,9 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+.ft{
+    font-size: 18px;
 }
 
