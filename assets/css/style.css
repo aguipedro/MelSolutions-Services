@@ -85,16 +85,6 @@
     display: block;
 }
 
-#circle-container1 {
-    width: 220px;
-    height: 220px;
-    padding: 10px;
-    border-style: solid;
-    border-color: #e84610;
-    border-width: 2px;
-    border-radius: 100%;
-    margin: auto;
-}
 
 /*--------------------------------------------Header-Colors*/
 
@@ -314,50 +304,59 @@ footer {
     padding-bottom: 5px;
 }
 
-.my-work {
-    padding-top: 30px;
+.my-work1 {
+    padding-top: 100px;
     text-align: center;
      font-size: 18px;
 }
 
-#my-work-specialty-logo{
-    font-size: 18px;
+.my-connections1 {
+    padding-top: 100px;
+    text-align: center;
+     font-size: 18px;
 }
-.my-work-specialty-logo {
+
+.my-services-logo {
     color: #e84610; 
-    size: 50%;
     font-size: 18px;
-}
-.my-work-items {
+  }
+
+  .my-connections-logo {
+    color: #e84610; 
+    font-size: 18px;
+  }
+
+.my-work-items1 {
     text-align: center;
     font-size: 18px;
 }
 
- .my-work-items p {   
+#services-item {
+    text-align: center;
+    font-size: 18px;
+}
+
+#connections-item {
+    text-align: center;
+    font-size: 18px;
+}
+.my-connections-items1 {
+    text-align: center;
+    font-size: 18px;
+}
+ .my-work-items1 p {   
     margin: auto;
 }
 
+.my-connections-items1 p {   
+    margin: auto;
+}
 .hr-1 {
     background-color: #e84610; 
     margin: 0;
     width:100%;
 }
 
-.my-specialty {
-    padding-top: 30px;
-    text-align: center;
-     font-size: 14px;
-}
-
-.my-specialty-items {
-    text-align: center;
-    padding-bottom: 20px;
-     font-size: 14px;
-}
-
-.my-specialty-items p {
-    margin: auto;
-}
 
 .my-network {
     padding-top: 30px;
@@ -378,21 +377,6 @@ footer {
     margin: 0; 
 }
 
-.my-connections {
-    padding-top: 30px;
-    text-align: center; 
-     font-size: 14px; 
-}
-
-.my-connections-items {
-    text-align: center;
-     font-size: 14px;
-}
-
-.my-connections-items p {
-    margin: auto;
-}
-
 /* ----------------------------------------SECTION-about Me */
 
 
@@ -410,22 +394,24 @@ footer {
     display: block;
 }
 
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 10px;
+#circle-container1 {
+    width: 220px;
+    height: 220px;
+    padding: 5px;
     border-style: solid;
-    border-color: #e84610; 
-    border-width: 2px;
+    border-color: #e84610;
+    border-width: 1px;
     border-radius: 100%;
-    margin: 0 auto;
+    margin: auto;
 }
+
 
 #circle-cover-bg {
     background: url('https://i.imgur.com/6goCaSe.png?2') no-repeat center center;
     height: 100%;
     border-radius: 100%;
     background-color: #131111;
+   
 }
 
 /*---------------------------------------- Skills*/
