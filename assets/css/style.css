@@ -2,14 +2,6 @@
 
 /*--------------------------------------------HEADER-heading*/
 
-.title {
-    font-family: "Roboto", sans-serif;
-    font-size: 28px;
-    font-weight: 300;
-    color: #fafafa;
-    text-align: center;
-}
-
 .carousel-caption{
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -17,65 +9,34 @@
     color: #fff;
   }
 
-.nav-item {
-    margin: 50px;
-}
-
 .form-control{
- font-size: 20px;
-font-weight: 600;
+    font-size: 18px;
 }
 
-.nav-link {
- font-size:28px;
-font-weight: 600;
+.nav-item{
+    margin: 70px;
+    width: 90px;
+    
+    
+}
+
+.nav-link{
+    font-size: 18px;
+   
 }
 
 .logo-A {
-    background: url("../images/Mel.png");
+    background: url("../images/base_icon_transparent_background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 240px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
+    }
+
+.navbar-brand{
+    padding-top: 80px;
+        }
 
 
-.name {
-    font-family: "Oswald", sans-serif;
-    font-weight: 100;
-    font-size: 46px;
-    margin-top: 45px;
-    color: #fff;
-}
-
-.title {
-    font-family: "Roboto", sans-serif;
-    font-weight: 200;
-    font-size: 28px;
-    margin-top: 20px;
-    margin-bottom: 55px;
-    color: #fff;
-}
-
-.name-1 {
-    font-family: "Oswald", sans-serif;
-    font-weight: 100;
-    font-size: 46px;
-    margin-top: 45px;
-    color: #131111;
-}
-
-.title-1{
-    font-family: "Roboto", sans-serif;
-    font-weight: 200;
-    font-size: 28px;
-    margin-top: 20px;
-    margin-bottom: 55px;
-    color: #131111;
-}
 
 .heading {
     text-align: center
@@ -155,19 +116,19 @@ font-weight: 600;
     background-color: #e2c20a;
 }
 
-/* ----------------------------------------SECTION-about Me */
+/* ----------------------------------------SECTION-about Us */
 
-#about-me {
-    font-size: 200%;
+#about-us {
+    font-size: 18px;
     text-align: center;
     text-transform: uppercase;
 }
 
-#about-me-item {
+#about-us-item {
     margin-top: 10px;
     margin-bottom: 20px;
     text-align: center;
-    font-size: 100%;
+    font-size: 18px;
 }
 
 #center-about {  
@@ -187,11 +148,6 @@ font-weight: 600;
     margin: 0 auto;
 }
 
-#circle-cover-bg {
-    background: url('https://i.imgur.com/LqgfZ1C.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 100%;
-}
 /*--------------------------------------------Header-Colors*/
 
 
@@ -267,6 +223,7 @@ h1,
 h2,
 h4 {
     margin: 0;
+    color: #C41367;
 }
 
 h1,
@@ -287,7 +244,7 @@ h2 {
 .contact {
     font-family: "Roboto", sans-serif;
     font-weight: 200;
-    font-size: 28px;
+    font-size: 18px;
     margin-top: 30px;
     margin-bottom: 30px;
     color: #293746;
@@ -305,7 +262,7 @@ h2 {
 .contact-item {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 30px;
     margin-bottom: 20px;
     color: #00FF00;
@@ -410,6 +367,7 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
     min-height: 340px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -507,16 +465,16 @@ footer {
 .my-work {
     padding-top: 50px;
     text-align: center;
-     font-size: 28px;
+     font-size: 18px;
 }
 
 #my-work-specialty-logo{
-    font-size: 28px;
+    font-size: 18px;
 }
 .my-work-specialty-logo {
     color: #e84610; 
     size: 50%;
-    font-size: 28px;
+    font-size: 18px;
 }
 .my-work-items {
     text-align: center;
@@ -536,13 +494,13 @@ footer {
 .my-specialty {
     padding-top: 50px;
     text-align: center;
-     font-size: 18px;
+     font-size: 14px;
 }
 
 .my-specialty-items {
     text-align: center;
     padding-bottom: 30px;
-     font-size: 18px;
+     font-size: 14px;
 }
 
 .my-specialty-items p {
@@ -552,7 +510,7 @@ footer {
 .my-network {
     padding-top: 50px;
     text-align: center;
-     font-size: 18px;
+     font-size: 14px;
 }   
 
 .my-network-connections-logo  {
@@ -561,7 +519,7 @@ footer {
 
 .my-network-items {
     text-align: center; 
-     font-size: 18px;
+     font-size: 14px;
 }
 
 .my-network-items p {
@@ -571,12 +529,12 @@ footer {
 .my-connections {
     padding-top: 50px;
     text-align: center; 
-     font-size: 18px; 
+     font-size: 14px; 
 }
 
 .my-connections-items {
     text-align: center;
-     font-size: 18px;
+     font-size: 14px;
 }
 
 .my-connections-items p {
@@ -585,17 +543,13 @@ footer {
 
 /* ----------------------------------------SECTION-about Me */
 
-#about-me {
-    font-size: 48px;
-    text-align: center;
-    text-transform: uppercase;
-}
+
 
 #about-me-item {
     margin-top: 10px;
     margin-bottom: 20px;
     text-align: center;
-    font-size: 28px;
+    font-size: 18px;
 }
 
 #center-about {  
@@ -616,20 +570,21 @@ footer {
 }
 
 #circle-cover-bg {
-    background: url('https://i.imgur.com/LqgfZ1C.jpg') no-repeat center center;
+    background: url('https://i.imgur.com/6goCaSe.png?2') no-repeat center center;
     height: 100%;
     border-radius: 100%;
+    background-color: #131111;
 }
 
 /*---------------------------------------- Skills*/
 
 .skills-icon{
-    font-size: 26px;
+    font-size: 18px;
     color: #e2c20a;
 }
 
 .skills-item {
-    font-size: 26px;
+    font-size: 18px;
     text-align: center;  
 }
 
@@ -758,7 +713,7 @@ footer {
 .contact-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    margin-top: 25px;
+    margin-top: 18px;
     margin-bottom: 20px;
 }
 
@@ -824,7 +779,7 @@ h2 {
 .contact {
     font-family: "Roboto", sans-serif;
     font-weight: 200;
-    font-size: 48px;
+    font-size: 18px;
     margin-top: 30px;
     margin-bottom: 30px;
     color: #293746;
@@ -842,7 +797,7 @@ h2 {
 .contact-item {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
-    font-size: 48px;
+    font-size: 18px;
     margin-top: 30px;
     margin-bottom: 20px;
     color: #00FF00;
