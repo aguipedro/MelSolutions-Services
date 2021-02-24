@@ -4,10 +4,23 @@
 
 .carousel-caption{
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-size: 28px;
-    color: #fff;
+   
+    
+    
   }
+
+.carousel-caption h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+     font-weight: 300;
+    color:#FFA500;
+}
+
+.carousel-caption p {
+     font-weight: 100;
+    font-size: 18px;
+    color:#fafafa;
+}
 
 .form-control{
     font-size: 18px;
@@ -299,9 +312,8 @@ footer {
 
 /*--------------------------------------------SECTION-work-specialty-network-connections*/
 
-.section1 {
-    padding-top: 5px;
-    padding-bottom: 5px;
+.section {
+    background-color: #fff;
 }
 
 .my-work1 {
