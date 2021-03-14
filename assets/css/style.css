@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700,800,900|Oswald:100,200,300,400,500,600,700');
 
 /*--------------------------------------------HEADER-heading*/
+.map {
+     margin: 0;
+     padding: 0;
+     }
+#map {
+    height: 500%;
+    width: 100%;
+      }
+
+
+
 
 .carousel-caption{
     font-family: "Roboto", sans-serif;
